@@ -1,0 +1,8 @@
+.idea/
+
+dist/
+.env
+test/.env
+node_modules/
+test/*.png
+
