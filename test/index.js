@@ -14,7 +14,7 @@ setImmediate(async () => {
             security: 'ssl_tls'
         })
 
-        await imap.test()
+        await imap.stats()
     } catch (error) {
         console.error('ERROR', error)
     }
