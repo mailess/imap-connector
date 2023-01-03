@@ -44,10 +44,7 @@ export class IMAPConnector {
     public async test(): Promise<Boolean> {
         console.log('try to connect...')
         await this.client.connect()
-
         let lock = await this.client.getMailboxLock('INBOX')
-        console.log('MAILBOX', this.client.mailbox)
-
         lock.release()
         await this.client.logout()
         console.log('connected!')
