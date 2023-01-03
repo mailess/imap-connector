@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/mailess/imap-connector/issues"
   },
-  "homepage": "https://github.com/mailess/imap-connector#readme"
+  "homepage": "https://github.com/mailess/imap-connector#readme",
+  "dependencies": {
+    "imapflow": "^1.0.119"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "dotenv": "^16.0.3"
+  }
 }
